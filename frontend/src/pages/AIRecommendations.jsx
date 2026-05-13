@@ -37,7 +37,7 @@ const AIRecommendations = () => {
         const res =
           await axios.post(
 
-            "http://localhost:5000/api/ai/recommend",
+            "https://aniverse-2jsl.onrender.com/api/ai/recommend",
 
             { prompt }
           );
