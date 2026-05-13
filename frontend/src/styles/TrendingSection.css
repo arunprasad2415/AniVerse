@@ -1,0 +1,18 @@
+.trending-section{
+    padding: 4rem 3rem;
+}
+
+.trending-section h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.anime-grid{
+    display:grid ;
+
+    grid-template-columns: repeat(
+    auto-fit,
+    minmax(220px, 1fr)
+    );
+    gap: 2rem;
+}

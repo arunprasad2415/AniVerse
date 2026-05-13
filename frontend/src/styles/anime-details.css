@@ -1,0 +1,64 @@
+.anime-details {
+  min-height: 100vh;
+  padding: 3rem;
+
+  background: #070b1a;
+  color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  width: 300px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 0 40px rgba(139, 92, 246, 0.4);
+}
+
+.details-content {
+  max-width: 900px;
+
+  margin: 3rem auto;
+}
+
+.details-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  gap: 2rem;
+
+  color: #c084fc;
+
+  margin-bottom: 2rem;
+}
+
+.synopsis {
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.genres {
+  display: flex;
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  margin-top: 2rem;
+}
+
+.genres span {
+  padding:
+    0.5rem 1rem;
+
+  background: #111827;
+
+  border-radius: 999px;
+}
